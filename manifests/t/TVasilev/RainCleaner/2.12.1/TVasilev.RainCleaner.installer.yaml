@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TVasilev.RainCleaner
+PackageVersion: 2.12.1
+InstallerType: wix
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ProductCode: '{FEF251B7-4F1F-46BC-9ECA-B2598EA90E47}'
+ReleaseDate: '2026-09-28'
+AppsAndFeaturesEntries:
+- DisplayName: Rain Cleaner - Driver Installer, Cleaning and Game Booster
+  Publisher: T. Vasilev
+  DisplayVersion: 2.12.1
+  ProductCode: '{FEF251B7-4F1F-46BC-9ECA-B2598EA90E47}'
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\Rain Cleaner'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/raincleaner/RainCleaner/releases/download/v2.12.1/RainCleaner-Setup-2.12.1.msi
+  InstallerSha256: 84C33C72A898724E95DDD122402BEA84ED928427F4F43BD4408A4E2CDF5E36A6
+ManifestType: installer
+ManifestVersion: 1.12.0
