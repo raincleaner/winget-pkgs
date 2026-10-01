@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TVasilev.RainDriver
+PackageVersion: 0.1.1
+InstallerType: portable
+Commands:
+- raindriver
+MinimumOSVersion: 10.0.14393.0
+ReleaseDate: '2026-10-01'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/raincleaner/RainDriver/releases/download/v0.1.1/RainDriver-0.1.1-win10-11-x64.exe
+  InstallerSha256: 078D044D13E333334FFD0653766969C94F61B55AA733FF21BEA832A7ACE1A1F0
+- Architecture: x86
+  InstallerUrl: https://github.com/raincleaner/RainDriver/releases/download/v0.1.1/RainDriver-0.1.1-win10-x86.exe
+  InstallerSha256: BC2A1AA5F4FACAF3D090FBE26CB411F3B15BE7B019DA8198DE9578E5A632B30F
+ManifestType: installer
+ManifestVersion: 1.12.0
