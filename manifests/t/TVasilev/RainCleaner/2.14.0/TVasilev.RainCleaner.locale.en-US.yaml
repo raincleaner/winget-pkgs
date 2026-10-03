@@ -28,7 +28,7 @@ Description: |-
 
   Windows 10, Windows 11 and Windows Server. The free version has no time limit, no ads and
   needs no account. An optional paid Pro upgrade adds one-click tools (Fix My PC, Update
-  Everything, Undo Anything, scheduled autopilot). The interface speaks six languages.
+  Everything, Undo Anything, scheduled autopilot). The interface speaks 13 languages.
 Moniker: raincleaner
 Tags:
 - clean
@@ -42,8 +42,9 @@ Tags:
 - security
 - system
 - utility
-ReleaseNotes: Now available in 13 languages (Portuguese-BR, Chinese, Japanese, Korean, Vietnamese, Indonesian, Thai).
-  The dashboard now offers the 14-day Pro trial directly: one button starts it, no card, nothing renews.
+ReleaseNotes: |-
+  Now available in 13 languages: Portuguese (Brazil), Chinese, Japanese, Korean, Vietnamese, Indonesian and Thai.
+  Pro licences now keep a signed offline lease, so a short offline period does not switch Pro off.
 ReleaseNotesUrl: https://raincleaner.eu/changelog
 PurchaseUrl: https://raincleaner.eu/pricing
 ManifestType: defaultLocale
