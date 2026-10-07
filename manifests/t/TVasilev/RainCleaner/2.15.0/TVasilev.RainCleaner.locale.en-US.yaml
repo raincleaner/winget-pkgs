@@ -43,8 +43,10 @@ Tags:
 - system
 - utility
 ReleaseNotes: |-
-  Fixed: activating a Pro key could fail with an access-denied error on license.json when the licence file in
-  C:\ProgramData\RainCleaner could not be overwritten. The licence is now saved in the user folder in that case.
+  New: Rain Recovery Link. Pair an Android phone once while the PC works; if Windows stops starting,
+  plug the phone in by USB and repair, add drivers to, or reinstall Windows from it. Needs Rain Cleaner
+  for Android with the Recovery Link purchase. Rain Recovery is added only to the Windows recovery
+  environment; the original recovery image is backed up and can be restored.
 ReleaseNotesUrl: https://raincleaner.eu/changelog
 PurchaseUrl: https://raincleaner.eu/pricing
 ManifestType: defaultLocale
